@@ -8,10 +8,16 @@ public class Main {
 
         metodlar.deneme();
 
+        System.out.println(hesap(12));
+
         deneme2();
         toplama(18.7); //18.7+5=23.7 ** 23.7
     }
+    public static double hesap(double sayi){//deger alan değer döndüren
+        double sonuc=sayi+18.5;
 
+        return sonuc;
+    }
     public void deneme(){//nesne oluşturma şartı var
         System.out.println("Bu deneme metodudur.");
     }
