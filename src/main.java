@@ -1,19 +1,22 @@
 import java.awt.*;
-import java.security.PublicKey;
-import java.util.Scanner;
-import java.util.Random;
+import java.util.*;
+import java.util.Comparator;
 public class Main {
     public static void main(String[] args){
+//Motodlar
+        Main metodlar=new Main();//classtan nesne oluşturma
 
-    Main metotlar=new Main();
-    metotlar.deneme();
-    deneme2();
+        metodlar.deneme();
 
+        deneme2();
     }
-    public void deneme(){
-        System.out.println("bu bir deneme metotudur.");
+
+    public void deneme(){//nesne oluşturma şartı var
+        System.out.println("Bu deneme metodudur.");
     }
-    public static void deneme2(){
-        System.out.println("bu bir static metotdur");
+
+    public static void deneme2(){//nesne oluşturmadan direct çağırılabilir
+        System.out.println("Classa bağlıyım direk gelirim");
     }
+
 }
