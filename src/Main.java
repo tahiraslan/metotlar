@@ -9,6 +9,7 @@ public class Main {
         metodlar.deneme();
 
         deneme2();
+        toplama(18.7);
     }
 
     public void deneme(){//nesne oluşturma şartı var
@@ -17,6 +18,12 @@ public class Main {
 
     public static void deneme2(){//nesne oluşturmadan direct çağırılabilir
         System.out.println("Classa bağlıyım direk gelirim");
+    }
+    // deger alan deger dödürmeyen metot
+    public static void toplama(double sayi1){
+        double sonuc=sayi1+5;
+        System.out.println(sonuc);
+
     }
 
 }
