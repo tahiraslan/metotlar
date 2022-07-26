@@ -9,7 +9,7 @@ public class Main {
         metodlar.deneme();
 
         deneme2();
-        toplama(18.7);
+        toplama(18.7); //18.7+5=23.7 ** 23.7
     }
 
     public void deneme(){//nesne oluşturma şartı var
